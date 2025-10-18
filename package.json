@@ -1,0 +1,28 @@
+{
+  "name": "glass-calculator",
+  "version": "1.0.0",
+  "description": "A glassmorphism-inspired calculator with Capacitor-based Android packaging.",
+  "main": "www/script.js",
+  "scripts": {
+    "sync:android": "npx cap sync android",
+    "open:android": "npx cap open android",
+    "build:android": "cd android && ./gradlew assembleDebug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wassi77/blackheart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Wassi77/blackheart/issues"
+  },
+  "homepage": "https://github.com/Wassi77/blackheart#readme",
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/cli": "^7.4.3",
+    "@capacitor/core": "^7.4.3"
+  }
+}

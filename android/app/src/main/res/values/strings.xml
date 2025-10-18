@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">TokenCounter</string>
+    <string name="title_activity_main">TokenCounter</string>
+    <string name="package_name">com.example.tokencounter</string>
+    <string name="custom_url_scheme">com.example.tokencounter</string>
+</resources>
